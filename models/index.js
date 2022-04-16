@@ -17,15 +17,15 @@ Product.belongsTo(Category, {
 // Products belongToMany Tags (through ProductTag)
 Product.belongsToMany(Tag, {
   through: ProductTag,
-  as: 'tag',
+  as: 'product__tag',
   foreignKey: 'product_id'
 });
 
 // Tags belongToMany Products (through ProductTag)
 Tag.belongsToMany(Product, {
   through: ProductTag,
-  as: 'tag',
-  foreignKey: 'tag_id'
+  as: 'product__tag',
+  foreignKey: 'product_id'
 });
 
 ProductTag.belongsTo(Product, {
