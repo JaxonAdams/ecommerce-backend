@@ -20,6 +20,7 @@ You will need Node and MySQL on your machine to run this code, so make sure you 
 ## Usage
 Please refer to the following video for a demonstration of the server:
     
+https://drive.google.com/file/d/1SBKnyPgZ0lcJJedP0Z4GodBhunwAe4Av/view
 
 
 
